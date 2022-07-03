@@ -1,2 +1,2 @@
 # Algorithm
-leetcode刷题记录
+leetcode分类刷题记录
