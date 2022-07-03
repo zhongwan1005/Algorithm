@@ -16,6 +16,8 @@
 
 数学方法参考此篇题解: [换个角度举例解决约瑟夫环](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/huan-ge-jiao-du-ju-li-jie-jue-yue-se-fu-huan-by-as/)
 
+
+![约瑟夫环复原](pic/约瑟夫环.png)
 ```Java
 //链表模拟
 class Solution {
