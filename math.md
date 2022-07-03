@@ -7,12 +7,12 @@
 **示例 1：**
 
 > **输入:** n = 5, m = 3
-**输出:** 3
+>**输出:** 3
 
 **示例 2：**
 
 > **输入:** n = 10, m = 17
-**输出:** 2
+>**输出:** 2
 
 数学方法参考此篇题解: [换个角度举例解决约瑟夫环](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/huan-ge-jiao-du-ju-li-jie-jue-yue-se-fu-huan-by-as/)
 
