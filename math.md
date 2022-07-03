@@ -1,4 +1,4 @@
- ### <a herf = "https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/" target = "_blank"> 剑指 Offer 62. 圆圈中最后剩下的数字 </a>
+### [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
 
 0,1,···,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字（删除后从下一个数字开始计数）。求出这个圆圈里剩下的最后一个数字。
 
@@ -14,7 +14,7 @@
 > **输入:** n = 10, m = 17
 **输出:** 2
 
-数学方法参考此篇题解: <a herf = "https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/huan-ge-jiao-du-ju-li-jie-jue-yue-se-fu-huan-by-as/" target = "_blank">换个角度举例解决约瑟夫环</a>
+数学方法参考此篇题解: [换个角度举例解决约瑟夫环](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/huan-ge-jiao-du-ju-li-jie-jue-yue-se-fu-huan-by-as/)
 
 ```Java
 //链表模拟
