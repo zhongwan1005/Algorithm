@@ -7,16 +7,16 @@
 **示例 1：**
 
 > **输入:**
-`["MaxQueue","push_back","push_back","max_value","pop_front","max_value"]`
-`[[],[1],[2],[],[],[]]`
-**输出:** `[null,null,null,2,1,2]`
+> `["MaxQueue","push_back","push_back","max_value","pop_front","max_value"]`
+> `[[],[1],[2],[],[],[]]`
+> **输出:** `[null,null,null,2,1,2]`
 
 **示例 2：**
 
 > **输入:**
-`["MaxQueue","pop_front","max_value"]`
-`[[],[],[]]`
-**输出:**`[null,-1,-1]`
+> `["MaxQueue","pop_front","max_value"]`
+> `[[],[],[]]`
+> **输出:**`[null,-1,-1]`
 
 ```py
 import queue
