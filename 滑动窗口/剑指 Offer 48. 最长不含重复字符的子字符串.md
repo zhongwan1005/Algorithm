@@ -26,5 +26,18 @@
 **tips:**典型滑动窗口
 
 ```java
-
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        int left = 0, res = 0;
+        for (int i = 0; i < s.length(); i++){
+            if (map.containsKey(s.charAt(i))) {
+                left = Math.max(left, map.get(s.charAt(i)) + 1);
+            }
+            map.put(s.charAt(i), i);
+            res = Math.max(res, i - left + 1);
+        }
+        return res;
+    }
+}
 ```
