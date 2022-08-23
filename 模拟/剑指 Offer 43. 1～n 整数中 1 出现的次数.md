@@ -65,6 +65,7 @@ class Solution {
         int res = 0;
         int high = n / 10, cur = n % 10, low = 0;
         int digit = 1;
+        // 当 high 和 cur 同时为 0 时，说明已经越过最高位，因此跳出
         while (high != 0 || cur != 0){
             if (cur == 0){
                 res += high * digit;
